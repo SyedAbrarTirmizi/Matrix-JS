@@ -44,9 +44,10 @@ let matrix2 = [
 //     }
 //   }
 
+// Printing array dynamically
 let myArr = [
   [2, 3, 4, 4, 4, 9],
-  [5, 5],
+  [5, 5, 6],
   [5],
   [9, 8, 7],
   [8, 76, 5, 43, 8, 76, 5, 43],
@@ -54,7 +55,7 @@ let myArr = [
 // 2D array
 
 for (let i = 0; i < myArr.length; i++) {
-  console.log(myArr[i.length]);
+  // console.log(myArr[i.length]);
   for (let j = 0; j < myArr[i].length; j++) {
     console.log(myArr[i][j]);
   }
